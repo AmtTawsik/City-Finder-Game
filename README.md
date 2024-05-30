@@ -13,7 +13,6 @@ City Finder Game is a React/Next.js-based game where the player must locate citi
 
 - Interactive map using Leaflet.
 - Score system based on the accuracy of the player's guesses.
-- Visual feedback with a modal for game over notifications.
 - Responsive design with Tailwind CSS.
 
 ## Technologies
