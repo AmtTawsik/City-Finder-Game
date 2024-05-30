@@ -11,12 +11,12 @@ interface LatLng {
 }
 
 const Home = () => {
-  const [score, setScore] = useState(1500);
+  const [score, setScore] = useState<number>(1500);
   const [currentCity, setCurrentCity] = useState(cities[0]);
-  const [currentIndex, setCurrentIndex] = useState(0);
-  const [playerPosition, setPlayerPosition] = useState(null);
+  const [currentIndex, setCurrentIndex] = useState<number>(0);
+  const [playerPosition, setPlayerPosition] = useState<LatLng | null>(null);
 
-  const handleMapClick = (latlng: LatLng) => {
+  const handleMapClick = (latlng:any) => {
     setPlayerPosition(latlng);
   };
 
